@@ -1,11 +1,13 @@
 import Author from "./author";
+import { storyType } from "./storyType";
 
 type PostType = {
   slug: string;
   title: string;
   date: string;
+  index: number;
+  type: storyType;
   coverImage: string;
-  author: Author;
   excerpt: string;
   ogImage: {
     url: string;

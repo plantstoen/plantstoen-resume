@@ -1,5 +1,5 @@
 import Container from "../components/container";
-import MoreStories from "../components/more-stories";
+import MoreStories from "../components/templates/StoriesArea";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
