@@ -4,8 +4,8 @@ import { storyType } from "./storyType";
 type PostType = {
   slug: string;
   title: string;
+  index: string;
   date: string;
-  index: number;
   type: storyType;
   coverImage: string;
   excerpt: string;

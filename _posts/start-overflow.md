@@ -1,9 +1,12 @@
 ---
 title: "로봇동아리 Overflow 설립"
 excerpt: "제 생애 첫 대회 어쩌구"
-index: 4
 coverImage: "/assets/blog/post/first-lego-league2014/thumbnail.png"
+index: "4"
 date: "2014.12 ~ 2015.08"
+author:
+  name: Joe Haddad
+  picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
   url: "/assets/blog/post/first-lego-league2014/thumbnail.png"
 ---

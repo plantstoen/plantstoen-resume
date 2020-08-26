@@ -1,17 +1,28 @@
-import Avatar from "./avatar";
-import DateFormater from "./date-formater";
 import CoverImage from "./cover-image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 type Props = {
   title: string;
   coverImage: string;
   date: string;
+  index: number;
   excerpt: string;
   slug: string;
 };
 
-const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
+const PostPreview = ({
+  title,
+  coverImage,
+  date,
+  index,
+  excerpt,
+  slug,
+}: Props) => {
+  useEffect(() => {
+    //console.log(index);
+  }, []);
+
   return (
     <div>
       <div className="mb-5">

@@ -1,9 +1,12 @@
 ---
 title: "동산고등학교 로봇영재반 입학"
 excerpt: "제 생애 첫 대회 어쩌구"
-index: 3
 coverImage: "/assets/blog/post/first-lego-league2014/thumbnail.png"
+index: "3"
 date: "2014.12 ~ 2015.08"
+author:
+  name: Joe Haddad
+  picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
   url: "/assets/blog/post/first-lego-league2014/thumbnail.png"
 ---

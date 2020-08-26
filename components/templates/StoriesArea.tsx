@@ -17,6 +17,7 @@ const StoriesArea = ({ posts }: Props) => {
             title={post.title}
             coverImage={post.coverImage}
             date={post.date}
+            index={post.index}
             slug={post.slug}
             excerpt={post.excerpt}
           />

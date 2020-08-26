@@ -41,7 +41,7 @@ export function getAllPosts(fields: string[] = []) {
   const slugs = getPostSlugs();
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by index in descending order
+    // sort posts by index in descending order (post1, post2) => (post1.index > post2.index ? -1 : 1)
     .sort((post1, post2) => (post1.index > post2.index ? -1 : 1));
   return posts;
 }
